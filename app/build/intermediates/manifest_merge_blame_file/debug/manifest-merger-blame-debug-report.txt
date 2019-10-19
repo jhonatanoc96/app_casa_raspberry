@@ -1,0 +1,66 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jhonatan.bombillos"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:5:5-66
+11-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:6:5-79
+12-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:6:22-76
+13
+14    <application
+14-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:8:5-25:19
+15        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+15-->[com.android.support:support-compat:28.0.0-rc02] C:\Users\Jhonatan\.gradle\caches\transforms-2\files-2.1\7aa5c9c92109a2d5e5ef90c8b46665d5\support-compat-28.0.0-rc02\AndroidManifest.xml:22:18-91
+16        android:debuggable="true"
+17        android:testOnly="true" >
+18        <uses-library android:name="com.google.android.things" />
+18-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:9:9-66
+18-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:9:23-63
+19
+20        <activity android:name="com.jhonatan.bombillos.MainActivity" >
+20-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:11:9-23:20
+20-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:11:19-47
+21            <intent-filter>
+21-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:12:13-16:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:13:17-69
+22-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:13:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:15:17-77
+24-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:15:27-74
+25            </intent-filter>
+26            <intent-filter>
+26-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:17:13-22:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:13:17-69
+27-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:13:25-66
+28
+29                <category android:name="android.intent.category.IOT_LAUNCHER" />
+29-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:20:17-81
+29-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:20:27-78
+30                <category android:name="android.intent.category.DEFAULT" />
+30-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:21:17-76
+30-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:21:27-73
+31            </intent-filter>
+32        </activity>
+33
+34        <service
+34-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:24:9-75
+35            android:name="com.jhonatan.bombillos.RESTfulService"
+35-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:24:18-48
+36            android:exported="false" />
+36-->D:\Raspberry\app_casa_raspberry\app\src\main\AndroidManifest.xml:24:49-73
+37    </application>
+38
+39</manifest>
